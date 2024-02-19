@@ -10,4 +10,5 @@ module.exports = app => {
   router.get('/user/info', controller.admin.userInfo);
   router.get('/watch/invalidate', controller.vue.watchInvalidate);
   router.get('/wx/checkSignature', controller.wx.checkSignature);
+  router.post('/wx/getWXSDKSignature', controller.wx.getWXSDKSignature);
 };
