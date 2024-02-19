@@ -11,4 +11,6 @@ module.exports = app => {
   router.get('/watch/invalidate', controller.vue.watchInvalidate);
   router.get('/wx/checkSignature', controller.wx.checkSignature);
   router.post('/wx/getWXSDKSignature', controller.wx.getWXSDKSignature);
+  router.post('/iframeApi/login', controller.iframeApi.login);
+  router.get('/iframeApi/getAddressList', controller.iframeApi.getAddressList);
 };
