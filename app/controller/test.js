@@ -9,7 +9,8 @@ class AdminController extends Controller {
       data: {
         code: 20000,
         data: {
-          token: 'DingBaoLei',
+          token: 'DingBaoLeiTEST',
+          name: 'TEST',
         },
       },
     };
@@ -22,7 +23,7 @@ class AdminController extends Controller {
         data: {
           name: 'DingBaoLei',
           age: 18,
-          roles: [ 'admin' ],
+          roles: [ 'TEST' ],
         },
       },
     };

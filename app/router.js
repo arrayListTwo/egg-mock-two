@@ -8,6 +8,8 @@ module.exports = app => {
   router.get('/', controller.home.index);
   router.post('/user/login', controller.admin.login);
   router.get('/user/info', controller.admin.userInfo);
+  router.post('/user/test/login', controller.test.login);
+  router.get('/user/test/info', controller.test.userInfo);
   router.get('/watch/invalidate', controller.vue.watchInvalidate);
   router.get('/wx/checkSignature', controller.wx.checkSignature);
   router.post('/wx/getWXSDKSignature', controller.wx.getWXSDKSignature);

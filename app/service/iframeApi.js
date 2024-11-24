@@ -12,9 +12,9 @@ const delay = time => {
 
 class IframeApiService extends Service {
   async login({ name, password }) {
-    await delay(2000);
+    // await delay(2000);
     if (name && password) {
-      return 'login-success';
+      return 'DingBaoLei';
     }
     return '';
   }
